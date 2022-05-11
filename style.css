@@ -4,7 +4,9 @@
     padding: 0;
 }
 body{
-    border: 10px solid rgb(79, 241, 42);
+    border: 10px dashed rgb(22, 90, 7);
+    border-top: none;
+    background-color: #ebb175;
 }
 .firstRow{
     background-color: rgb(2, 137, 38);
@@ -13,14 +15,29 @@ body{
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #bebebe;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 0px 0px 10px 10px;
     transition: 500ms;
 }
 .firstRow:hover{
-    color: rgb(79, 241, 42);
+    color: rgb(255, 255, 255);
     transition: 500ms;
+}
+.flag{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flag img{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: 500ms;
+}
+.flag img:hover{
+    transition: 300ms;
+    transform: scale(1.1);
 }
 .Images{
     display: flex;
@@ -42,9 +59,14 @@ body{
     padding: 10px;
     margin: 15px;
 }
+.thirdRow a{
+    display: grid;
+    align-content: center;
+}
 .ThirdRowImages{
     width: 200px;
     transition: 500ms;
+    border-radius: 15px;
 }
 .ThirdRowImages:hover{
     transform: scale(1.1);
@@ -59,14 +81,25 @@ table tr{
 }
 .kingsImages td img{
     width: 100px;
+    transition: 200ms;
+    border-radius: 7px;
+}
+.kingsImages img:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    border-radius: 15px;
+}
+.kingsNames, th{
+    background-color: rgb(79, 241, 42);
+    border-radius: 15px;
 }
 .KingsNames, th, a{
-    color: rgb(120, 120, 120);
+    color: rgb(50, 50, 50);
     transition: 200ms;
     text-decoration: none;
 }
 .KingsNames, th, a:hover{
-    color: black;
+    color: rgb(120, 120, 120);
     transition: 200ms;
 }
 .vedio{
