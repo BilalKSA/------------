@@ -67,6 +67,8 @@ body{
     width: 200px;
     transition: 500ms;
     border-radius: 15px;
+    border: 1px solid #333;
+    padding: 10px;
 }
 .ThirdRowImages:hover{
     transform: scale(1.1);
