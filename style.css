@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    border: 10px solid rgb(79, 241, 42);
+}
 .firstRow{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(2, 137, 38);
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
     padding: 10px;
@@ -57,4 +59,21 @@ table tr{
 }
 .kingsImages td img{
     width: 100px;
+}
+.KingsNames, th, a{
+    color: rgb(120, 120, 120);
+    transition: 200ms;
+    text-decoration: none;
+}
+.KingsNames, th, a:hover{
+    color: black;
+    transition: 200ms;
+}
+.vedio{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+iframe{
+    border-radius: 15px;
 }
