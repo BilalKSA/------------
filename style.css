@@ -10,8 +10,8 @@ body{
 }
 .firstRow{
     background-color: rgb(2, 137, 38);
-    border-bottom: 1px solid #e5e5e5;
-    border-top: 1px solid #e5e5e5;
+    border: 1px solid #e5e5e5;
+    border-top: none;
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
